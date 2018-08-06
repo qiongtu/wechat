@@ -1,0 +1,389 @@
+::-webkit-scrollbar-button {
+    display:none;
+}
+
+.dynamic{
+    width: 100%;
+    /*height: 400px;*/
+    background-color:aliceblue;
+    flex: 1;
+    overflow: scroll;
+    overflow-x:hidden;
+
+}
+#search_area{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+
+}
+#search{
+    width: 94%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+#search_img{
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/搜索.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#search_tag{
+    color:#8a8a8a;
+
+}
+#search_voice{
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/语音.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3%;
+}
+.chat_item{
+    width: 94%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom:0.1px solid #8a8a8a  ;
+}
+.item_left{
+    width: 45px;
+    height: 45px;
+    /*background-image: url(../img/a.jpg);*/
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 4px;
+}
+#newchat{
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: crimson;
+    position: absolute;
+    right: -5px;
+    top:-5px;
+    font-size: 10px;
+    color: #e6e6e6;
+    text-align: center;
+
+}
+.chat_right{
+    flex: 1;
+    width: 45px;
+    height: 45px;
+
+}
+#chat_right_name{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-content: center;
+
+}
+#chat_name{
+    height: 20px;
+    flex: 1;
+    margin-left: 5px;
+}
+#chat_time{
+    height: 20px;
+    flex:1;
+    margin-right: 5px;
+    color: #8a8a8a;
+    font-size: 10px;
+    text-align:right;
+    line-height: 20px;
+
+}
+#chat_right_content{
+    height: 20px;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.no_read{
+    color: crimson;
+}
+.read{
+    color: #8a8a8a;
+}
+.address_title_list{
+    height: 40px;
+    width: 94%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid #8a8a8a;
+
+}
+.address_title_list_icon{
+    height:30px;
+    width: 30px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-size:100%;
+}
+.address_title_list_name{
+    height:30px;
+    flex: 1;
+    margin-left: 5px;
+    line-height: 30px;
+}
+.address_icon{
+    color: grey;
+    padding-left:12px;
+    width: 100%;
+    font-size: 13px;
+    background-color: #e6e6e6;
+}
+#address_list{
+    overflow: hidden;
+}
+#address_book_find{
+    width: 10px;
+    position: absolute;
+    top:100px;
+    right:10px;
+    z-index: 5;
+
+}
+#address_book_find div{
+    width: 6px;
+    height: 6px;
+}
+.address_book_find_box{
+    font-size: 3px;
+}
+#moments{
+
+}
+
+.find_list{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: aliceblue;
+
+}
+#find_box{
+    background-color:#e6e6e6;
+    height: 150%;
+    width: 100%;
+}
+.find_list_icon{
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.find_list_name{
+    height: 30px;
+    margin-left: 5px;
+    flex: 1;
+    line-height: 30px;
+}
+.find_list_xiaoyu{
+    height:20px;
+    width: 20px;
+    font-size: 25px;
+    color: #8a8a8a;
+    line-height: 20px;
+
+}
+#find_list1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+#mine_box{
+    background-color:#e6e6e6;
+    height: 150%;
+    width: 100%;
+}
+#mine_title{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:10px;
+    background-color: aliceblue;
+}
+#mine_icon{
+    width:60px;
+    height: 60px;
+    border-radius: 3px;
+    margin-left: 4px;
+    background-image: url(../img/touxiang.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#mine_lable{
+    height: 60px;
+    flex: 1;
+    margin-left: 4px;
+}
+#mine_lable div{
+    height: 30px;
+    line-height: 30px;
+
+}
+
+#mine_qr{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/二维码.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.find_list_xiaoyu1{
+    height:20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 25px;
+    color: #8a8a8a;
+}
+
+
+/*moment 层 */
+
+#dynamic_moments{
+    overflow: scroll;
+    position: absolute;
+    top:90px;
+    width: 100%;
+    background-color: aliceblue;
+    bottom: 0px;
+    left: 100%;
+    z-index:10;
+
+    display: block;
+    transition-property: left;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+
+
+}
+#moments_icon{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/moments.jpg);
+    position: relative;
+    background-size: cover;
+
+}
+#moments_mine{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#moments_mine_icon{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/touxiang.PNG);
+    background-size:cover;
+
+}
+#moments_mine_name{
+    flex: 1;
+    color: whitesmoke;
+    font-family: 华文行楷;
+    text-align: right;
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+
+
+.moments_case{
+    width:100%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#case_left{
+    width: 40px;
+    height: 100%;
+    margin-left: 20px;
+}
+#person_icon{
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+}
+#case_right{
+    flex: 1;
+    margin-left:10px;
+    max-width: 100%;
+}
+#person_name{
+    width: 100px;
+    height: 30px;
+    font-size:20px;
+    color:#9e99df;
+}
+#person_photo{
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 200px;
+    /*max-height: 200px;*/
+    margin-top: 4px;
+}
+#time{
+    height: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+#comment{
+    width: 30px;
+    height: 20px;
+    background-image:url(../img/评论.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#time_1{
+    width:40px;
+    height: 20px;
+    color: #8a8a8a;
+    font-size: 11px;
+    flex: 1;
+    line-height: 20px;
+
+}

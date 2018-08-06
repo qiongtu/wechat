@@ -1,0 +1,64 @@
+.menu{
+    width: 100%;
+    height: 55px;
+    background-color:aliceblue;
+    border-top: 0.1px solid #8a8a8a;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.menu div{
+   flex: 1;
+
+}
+
+.wechat_icon{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+}
+.call{
+    font-size: 12px;
+    text-align: center;
+    color: #8a8a8a;
+}
+
+.a1{
+    background-image: url(../img/-8个图标/message-icon-press.svg);
+}
+.a2{
+    background-image: url(../img/-8个图标/namebook-icon.svg);
+}
+.a3{
+    background-image: url(../img/-8个图标/discovery-icon.svg);
+}
+.a4{
+    background-image: url(../img/我.svg);
+}
+.b1{
+    background-image: url(../img/-8个图标/message-icon.svg);
+}
+.b2{
+    background-image: url(../img/-8个图标/namebook-icon-press.svg);
+}
+.b3{
+    background-image: url(../img/-8个图标/discovery-icon-press.svg);
+}
+.b4{
+    background-image: url(../img/我3.svg);
+}
+#A{
+
+}
+#B{
+
+}
+#C{
+
+}
+#D{
+
+}

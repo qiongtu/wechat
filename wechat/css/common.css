@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+}
+::-webkit-scrollbar-button {
+    display:none;
+}
